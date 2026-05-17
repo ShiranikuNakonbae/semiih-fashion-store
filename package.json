@@ -1,0 +1,13 @@
+{
+  "name": "fashion-store",
+  "version": "1.0.0",
+  "description": "Lightweight fashion storefront",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

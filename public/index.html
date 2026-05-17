@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SEMIIH — Unique Fashion Store</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <a href="/" class="logo">SEMIIH</a>
+                <div class="search-bar">
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search products..."
+                    />
+                    <svg
+                        class="search-icon"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.35-4.35" />
+                    </svg>
+                </div>
+                <nav class="nav">
+                    <button class="nav-btn active" data-category="all">
+                        All
+                    </button>
+                    <button class="nav-btn" data-category="Tops">Tops</button>
+                    <button class="nav-btn" data-category="Bottoms">
+                        Bottoms
+                    </button>
+                    <button class="nav-btn" data-category="Outerwear">
+                        Outerwear
+                    </button>
+                    <button class="nav-btn" data-category="Knitwear">
+                        Knitwear
+                    </button>
+                    <button class="nav-btn" data-category="Dresses">
+                        Dresses
+                    </button>
+                    <button class="nav-btn" data-category="Footwear">
+                        Footwear
+                    </button>
+                    <button class="nav-btn" data-category="Accessories">
+                        Accessories
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Grid -->
+        <main class="main container">
+            <div class="grid" id="productGrid">
+                <!-- JS-populated -->
+            </div>
+            <div class="empty-state hidden" id="emptyState">
+                <p>No items in this category.</p>
+            </div>
+        </main>
+
+        <!-- Product Detail Modal -->
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal" id="modal">
+                <div class="modal-img-wrap">
+                    <button
+                        class="modal-close"
+                        id="modalClose"
+                        aria-label="Close modal"
+                    >
+                        &times;
+                    </button>
+                    <img class="modal-img" id="modalImg" src="" alt="" />
+                </div>
+                <div class="modal-body">
+                    <p class="modal-category" id="modalCategory"></p>
+                    <h2 class="modal-name" id="modalName"></h2>
+                    <div class="modal-details">
+                        <span class="modal-price" id="modalPrice"></span>
+                        <span class="modal-qty">
+                            <span class="qty-badge" id="modalQtyBadge"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <span>&copy; 2026 SEMIIH Store</span>
+                <span class="dot">·</span>
+                <span>Jalan Bukit 1 No. 10 PBS</span>
+            </div>
+        </footer>
+
+        <script src="/app.js"></script>
+    </body>
+</html>

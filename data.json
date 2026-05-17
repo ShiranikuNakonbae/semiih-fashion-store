@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Linen Overshirt",
+    "category": "Tops",
+    "price": 89000,
+    "quantity": 12,
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Wool Blend Blazer",
+    "category": "Outerwear",
+    "price": 245000,
+    "quantity": 4,
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Japanese Selvedge Denim",
+    "category": "Bottoms",
+    "price": 148000,
+    "quantity": 7,
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Cashmere Crewneck",
+    "category": "Knitwear",
+    "price": 195000,
+    "quantity": 3,
+    "image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Pleated Wide Trousers",
+    "category": "Bottoms",
+    "price": 120000,
+    "quantity": 9,
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Silk Camp Shirt",
+    "category": "Tops",
+    "price": 135000,
+    "quantity": 6,
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50dacf7b0?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "Leather Tote Bag",
+    "category": "Accessories",
+    "price": 320000,
+    "quantity": 2,
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Merino Cardigan",
+    "category": "Knitwear",
+    "price": 165000,
+    "quantity": 8,
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Linen Drawstring Shorts",
+    "category": "Bottoms",
+    "price": 78000,
+    "quantity": 15,
+    "image": "https://images.unsplash.com/photo-1565084888274-ba7a3f2a1545?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 10,
+    "name": "Structured Crossbody",
+    "category": "Accessories",
+    "price": 210000,
+    "quantity": 5,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 11,
+    "name": "Classic White Trainers",
+    "category": "Footwear",
+    "price": 110000,
+    "quantity": 20,
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=500&fit=crop"
+  },
+  {
+    "id": 12,
+    "name": "Tailored Midi Dress",
+    "category": "Dresses",
+    "price": 178000,
+    "quantity": 3,
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&h=500&fit=crop"
+  }
+]
